@@ -22,12 +22,12 @@ Scenario
 
 In BitShares, you pay the fee upon **receiving an asset**, suppose:
 
-bob, owner of bob_UIA sets:
+bob, owner of `bob_UIA` sets:
 
     Maker fee for bob_UIA market at 0.1%
     Taker fee for bob_UIA market at 0.2%
 
-alice, owner of alice_UIA set:
+alice, owner of `alice_UIA` sets:
 
     Maker fee for alice_UIA market at 0.3%
     Taker fee for alice_UIA market at 0.4%
@@ -36,14 +36,11 @@ charlie places a limit order to buy (receive) `bob_UIA` with payment of `alice_U
 
 daniel, fills charlie's order by selling `bob_UIA` to receive `alice_UIA` immediately.
 
-    charlie is a `bob_UIA:alice_UIA` market **Maker**
+    charlie is a `bob_UIA:alice_UIA` market Maker
       charlie *recieves* `bob_UIA`
 	    charlie pays bob 0.1%
 
-
-In BitShares, You pay the fee upon **receiving an asset**. Hence, one	
-
-    daniel is a **Taker** in the `bob_UIA:alice_UIA` market
+    daniel is a Taker in the `bob_UIA:alice_UIA` market
       daniel *receives* `alice_UIA`
 	    daniel pays alice 0.4% 
 	    
