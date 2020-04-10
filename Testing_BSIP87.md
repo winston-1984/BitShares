@@ -12,15 +12,9 @@ The asset names that are created might already exist in your test environment. C
 
 Testing
 
-    charlie: create an asset MAKER_TOKENS with different 1% maker fee and 2% taker market fee
+    bob and alice create assets and issue them to charlie and daniel
 
-    charlie: issue assets to bob
-
-    populate alice with TEST core tokens
-
-    alice places limit orders to buy MAKER_TOKENS
-
-    bob places limit order to sell MAKER_TOKENS
+    charlie and daniel place opposing limit orders which fill
 
     ensure expected results depending upon who is maker vs taker
     
