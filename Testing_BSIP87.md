@@ -39,6 +39,7 @@ alice, owner of alice_UIA set:
     Taker fee for alice_UIA market at 0.4%
 
 charlie places a limit order to buy bob_UIA with alice_UIA onto the order book.
+
 daniel, fills charlie's order by selling bob_UIA to receive alice_UIA.
 
     charlie is a `bob_UIA:alice_UIA` market **Maker**
