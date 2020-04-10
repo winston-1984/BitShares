@@ -46,7 +46,7 @@ daniel, fills charlie's order by selling `bob_UIA` to receive `alice_UIA` immedi
 	    
 Test where:
 
-    charlie is the buying maker
+    charlie is the buying maker - scenario 1
     charlie is the selling maker
     charlie is the buying taker
     charlie is the selling taker
