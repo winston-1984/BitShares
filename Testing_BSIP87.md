@@ -46,6 +46,13 @@ In BitShares, You pay the fee upon **receiving an asset**. Hence, one
     daniel is a **Taker** in the `bob_UIA:alice_UIA` market
       daniel *receives* `alice_UIA`
 	    daniel pays alice 0.4% 
+	    
+Test where:
+
+    charlie is the buying maker
+    charlie is the selling maker
+    charlie is the buying taker
+    charlie is the selling taker
 
 Initialize the Test Environment
 
